@@ -15,6 +15,8 @@ In this project, we focused on analyzing restaurants in Ohio state, and…
 
 ## Repository Structure
 
+0. **GCP-Cluster-Creation.txt**: Code for creating clusters in GCP environment to store data
+
 1. **Yelp_Business Cleaner.ipynb**: Code for dividing nested columns in business table and saving into serperate tables
 
 2. 1) **EDA.ipynb**: Includes most EDA codes and graphs
@@ -27,6 +29,8 @@ In this project, we focused on analyzing restaurants in Ohio state, and…
 
 5. **Regression Recommendation System.ipynb**: Code for traning regression models to provide recommendation
 
+6. **Yelp Recommendation System.pdf**: PDF presentation of project including data profiling, data preprocessing and EDA, details of model results and insights.
+   
 ## Models
 
 Our base model had an RSME score of 1.49 and R2 of 85.9%, and our final model had an RSME score of 0.89 and R2 of 95.2%. We are confident that we could make better suggestions to more active users with our final model. In the future, we could better optimize our model by training on more data, implementing time series analysis, and using more robust NLP models to understand our users better.
